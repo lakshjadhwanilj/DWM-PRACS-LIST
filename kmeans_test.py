@@ -6,7 +6,7 @@ import math
 import matplotlib.pyplot as plt
 
 #importing dataset
-data = pd.read_csv("test_set.csv")
+data = pd.read_csv("kmeans_test.csv")
 
 #converting columns to list
 x = list(data['x'].values)
